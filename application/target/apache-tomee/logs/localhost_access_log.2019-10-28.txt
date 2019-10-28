@@ -28,3 +28,12 @@
 0:0:0:0:0:0:0:1 - - [28/Oct/2019:14:38:14 +0100] "GET /api/business-partners HTTP/1.1" 500 1855
 0:0:0:0:0:0:0:1 - - [28/Oct/2019:14:42:19 +0100] "GET /logout HTTP/1.1" 404 995
 0:0:0:0:0:0:0:1 - - [28/Oct/2019:14:42:22 +0100] "GET /address-manager/ HTTP/1.1" 200 1164
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:40 +0100] "GET /address-manager HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:40 +0100] "GET /address-manager/ HTTP/1.1" 200 1164
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:41 +0100] "GET /address-manager/Component-preload.js HTTP/1.1" 404 1055
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:41 +0100] "GET /address-manager/i18n/i18n_en_GB.properties HTTP/1.1" 404 1067
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:41 +0100] "GET /address-manager/i18n/i18n_en.properties HTTP/1.1" 404 1061
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:41 +0100] "GET /address-manager/i18n/i18n_en_GB.properties HTTP/1.1" 404 1067
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:41 +0100] "GET /address-manager/i18n/i18n_en.properties HTTP/1.1" 404 1061
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:41 +0100] "GET /api/addresses HTTP/1.1" 405 1097
+0:0:0:0:0:0:0:1 - - [28/Oct/2019:15:00:43 +0100] "GET /api/business-partners HTTP/1.1" 500 1855

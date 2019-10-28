@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1391fc2f-3592-4340-8764-cfe28b88c5f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/target/address-manager-application-classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application-classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/target/address-manager-application.war" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/work/Catalina/localhost/_/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +75,7 @@
       <workItem from="1571902304828" duration="4005000" />
       <workItem from="1571914617409" duration="3606000" />
       <workItem from="1571920023953" duration="1877000" />
-      <workItem from="1572265562891" duration="3744000" />
+      <workItem from="1572265562891" duration="5345000" />
     </task>
     <servers />
   </component>
