@@ -4,21 +4,283 @@
     <list default="true" id="1391fc2f-3592-4340-8764-cfe28b88c5f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/GetAllBusinessPartnersCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/sap/cloud/s4hana/examples/addressmgr/commands/GetAllBusinessPartnersCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/target/address-manager-application-classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application-classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/target/address-manager-application.war" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/AddressServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/AddressServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/BusinessPartnerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/BusinessPartnerServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/work/Catalina/localhost/_/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetAllBusinessPartnersCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/address-manager-application/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetAllBusinessPartnersCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/RELEASE-NOTES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/RUNNING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/TomEE.amd64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/TomEE.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/TomEE.ia64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/TomEE.x86.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/bootstrap.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/catalina-tasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/catalina.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/catalina.bat.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/catalina.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/catalina.sh.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/commons-daemon-native.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/commons-daemon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/configtest.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/configtest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/daemon.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/digest.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/digest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/service.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/service.install.as.admin.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/service.readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/service.remove.as.admin.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/setclasspath.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/setclasspath.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/shutdown.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/shutdown.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/startup.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/startup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/tomcat-juli.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/tomcat-native.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/tomee.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/tomee.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/tool-wrapper.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/tool-wrapper.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/version.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/bin/version.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/conf.d/cxf-rs.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/conf.d/hsql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/server.xml.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/tomcat-users.xml.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/tomee.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/endorsed/annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/endorsed/jaxb-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/FastInfoset-1.2.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/bval-core-0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/bval-jsr303-0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/catalina-ant.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/catalina-ha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/catalina-tribes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/catalina.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-beanutils-core-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-cli-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-digester-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-lang3-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/commons-pool-1.5.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-api-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-bindings-xml-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-core-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-frontend-jaxrs-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-management-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-rs-extension-providers-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-rs-extension-search-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-rs-security-cors-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-rs-security-oauth2-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/cxf-rt-transports-http-2.6.17-TomEE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/ecj-4.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/el-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/geronimo-javamail_1.4_mail-1.9.0-alpha-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/geronimo-transaction-3.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/howl-1.0.1-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/hsqldb-2.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/istack-commons-runtime-2.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/jansi-1.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/jasper-el.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/jasper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/javaee-api-6.0-6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/jaxb-core-2.2.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/jaxb-impl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/jettison-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/jsp-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/mbean-annotation-api-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/myfaces-api-2.1.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/myfaces-impl-2.1.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-api-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-client-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-core-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-cxf-rs-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-cxf-transport-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-ejbd-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-hsql-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-http-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-javaagent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-jee-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-jee-accessors-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-jpa-integration-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-jstl-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-loader-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-rest-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openejb-server-4.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openjpa-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openwebbeans-ee-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openwebbeans-ee-common-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openwebbeans-ejb-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openwebbeans-el22-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openwebbeans-impl-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openwebbeans-jsf-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openwebbeans-spi-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/openwebbeans-web-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/quartz-openejb-shade-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/serp-1.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/slf4j-api-1.7.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/stax2-api-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/swizzle-stream-1.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/sxc-jaxb-core-0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/sxc-runtime-0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat-coyote.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat-dbcp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat-i18n-es.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat-i18n-fr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat-i18n-ja.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat-jdbc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomcat7-websocket.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomee-catalina-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomee-common-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomee-jaxrs-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomee-jdbc-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomee-loader-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomee-mojarra-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomee-myfaces-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/tomee-webapp-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/websocket-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/woodstox-core-asl-4.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/wsdl4j-1.6.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/xbean-asm5-shaded-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/xbean-bundleutils-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/xbean-finder-shaded-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/xbean-naming-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/xbean-reflect-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/lib/xmlschema-core-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/logs/catalina.2019-10-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/logs/host-manager.2019-10-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/logs/localhost.2019-10-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/logs/localhost_access_log.2019-10-28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/logs/manager.2019-10-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/temp/safeToDelete.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/META-INF/maven/com.sap.cloud.s4hana.examples/address-manager-application/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/META-INF/maven/com.sap.cloud.s4hana.examples/address-manager-application/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/HelloWorldServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/AddressServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/BusinessPartnerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetAllBusinessPartnersCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/UpdateAddressCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/com/sap/cloud/s4hana/examples/addressmgr/util/HttpServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/HdrHistogram-2.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/archaius-core-0.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/auditlog-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/auditlog-scp-cf-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/bapi-api-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/caching-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/com.sap.cloud.s4hana-connectivity-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/com.sap.cloud.s4hana-core-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/com.sap.cloud.s4hana.cloudplatform-connectivity-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/com.sap.cloud.s4hana.cloudplatform-core-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/common-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/commons-configuration-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/commons-text-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/connectivity-scp-cf-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/core-scp-cf-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/datamodel-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/developer_license-1.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/error_prone_annotations-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/fluent-result-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/guava-25.1-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/hystrix-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/hystrix-core-1.5.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/j2objc-annotations-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/jackson-annotations-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/jackson-core-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/jacksonutil-1.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/java-jwt-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/joda-time-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/json-20180130.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/json-sanitizer-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/jsoup-1.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/metering-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/odata-api-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/odata-core-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/odata-v2-lib-1.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/odatav2-connectivity-1.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/rfc-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/rxjava-1.3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/s4hana-all-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/scp-cf-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/security-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/security-scp-cf-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/servlet-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/tenant-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/tenant-scp-cf-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/tomcat-annotations-api-7.0.81.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/tomcat-api-7.0.81.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/tomcat-catalina-7.0.81.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/tomcat-juli-7.0.81.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/tomcat-servlet-api-7.0.81.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/lib/tomcat-util-7.0.81.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/spring-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/Component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/controller/App.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/controller/BaseController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/controller/Detail.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/controller/DetailMessagePage.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/controller/Master.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/i18n/i18n.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/model/MessageType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/model/address.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/model/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/service/businessPartner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/view/App.view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/view/Detail.view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/view/DetailMessagePage.view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/view/EditAddress.fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/address-manager/view/Master.view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/apache-tomee/webapps/ROOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/AddressServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/AddressServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/BusinessPartnerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/BusinessPartnerServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/CreateAddressCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/DeleteAddressCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetSingleBusinessPartnerByIdCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetAllBusinessPartnersCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/classes/com/sap/cloud/s4hana/examples/addressmgr/commands/GetAllBusinessPartnersCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +306,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,7 +338,10 @@
       <workItem from="1571902304828" duration="4005000" />
       <workItem from="1571914617409" duration="3606000" />
       <workItem from="1571920023953" duration="1877000" />
-      <workItem from="1572265562891" duration="5345000" />
+      <workItem from="1572265562891" duration="6168000" />
+      <workItem from="1572335755445" duration="3969000" />
+      <workItem from="1572340094537" duration="5368000" />
+      <workItem from="1572353981460" duration="1473000" />
     </task>
     <servers />
   </component>
