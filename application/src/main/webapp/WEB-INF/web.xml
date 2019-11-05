@@ -12,11 +12,11 @@
     <login-config>
         <auth-method>XSUAA</auth-method>
     </login-config>
-    
+
     <security-role>
         <role-name>ViewAddresses</role-name>
     </security-role>
-    
+
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Read business partners</web-resource-name>
@@ -27,7 +27,7 @@
         </auth-constraint>
     </security-constraint>
 
-
+	
     <filter>
         <filter-name>HttpSecurityHeadersFilter</filter-name>
         <filter-class>com.sap.cloud.sdk.cloudplatform.security.servlet.HttpSecurityHeadersFilter</filter-class>
